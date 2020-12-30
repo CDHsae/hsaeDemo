@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/bindservice"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="绑定服务"
+        />
+
+    <Button
+        android:id="@+id/btn_video"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="获取能否播放状态"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/canplay"
+        ></TextView>
+
+
+    <Button
+        android:id="@+id/btn_brake"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="获取手刹状态"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/brakeStatus"
+        ></TextView>
+
+
+</LinearLayout>
